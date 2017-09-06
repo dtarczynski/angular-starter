@@ -1,5 +1,5 @@
 # angular-starter
-0. dotnet new angular
+0. `dotnet new angular`
 1. install dotnet watch
 2. dotnet restore
 3. npm install @angular/cli@latest -g
