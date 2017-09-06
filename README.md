@@ -1,6 +1,15 @@
 # angular-starter
 0. `dotnet new angular`
-1. install dotnet watch
+1. install dotnet watch by editing your \*.csproj file and adding:
+
+```xml
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.Caching.SqlConfig.Tools" Version="2.0.0" />
+  </ItemGroup>
+```
+
 2. `dotnet restore`
 3. `npm install @angular/cli@latest -g`
 3. copy `.angular-cli.json` to project AND modify "root" value
