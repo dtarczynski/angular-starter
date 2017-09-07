@@ -18,3 +18,4 @@
 5a: go to components and run `ng g component foo`
 6: `mkdir services`
 6a: go to services and run `ng g service foo`
+7: `npm install -g webpack`
